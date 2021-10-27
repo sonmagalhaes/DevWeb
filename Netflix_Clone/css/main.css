@@ -12,6 +12,7 @@
 body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 
 }
 
@@ -37,4 +38,26 @@ header nav a {
 
 header nav a :hover {
     color: #aaa;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0, .5)100%),url(/img/peakblinkers_2_capa.jpg);
+
+    height: 400px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 90px;
+
+}
+
+.filme-principal .titulo {
+    font-size:  40px;
 }
